@@ -269,3 +269,251 @@ Processing by PagesController#contact as HTML
 Completed 200 OK in 140ms (Views: 123.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:03:20 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 458ms (Views: 285.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:06:27 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 73ms (Views: 69.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:08:41 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 48ms
+
+
+  
+ActionView::Template::Error (Missing partial pages/_shared, application/_shared with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/DeadFred/Documents/codestuff/Challenge_Folder/PairProgram/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render 'shared' %>
+    14:     <%= yield %>
+    15:     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    16:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__3546654123878333870_70195890522460'
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:09:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 224ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `shared' for #<#<Class:0x007faf803a9828>:0x007faf81aaa8d8>):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <%= render shared %>
+    14:     <%= yield %>
+    15:     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    16:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__3546654123878333870_70195859650380'
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:09:29 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 25ms
+
+
+  
+ActionView::Template::Error (Missing partial pages/_shared, application/_shared with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/DeadFred/Documents/codestuff/Challenge_Folder/PairProgram/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <% render 'shared' %>
+    14:     <%= yield %>
+    15:     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    16:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__3546654123878333870_70195885069880'
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:10:53 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 30ms
+
+
+  
+ActionView::Template::Error (Missing partial pages/_menu, application/_menu with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/DeadFred/Documents/codestuff/Challenge_Folder/PairProgram/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <% render 'menu' %>
+    14:     <%= yield %>
+    15:     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    16:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__3546654123878333870_70195875837280'
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:12:33 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 30ms
+
+
+  
+ActionView::Template::Error (Missing partial pages/_menu, application/_menu with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/DeadFred/Documents/codestuff/Challenge_Folder/PairProgram/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:     <% render 'menu' %>
+    14:     <%= yield %>
+    15:     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    16:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__3546654123878333870_70195890818660'
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:13:09 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 24.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:13:16 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+Completed 200 OK in 41ms (Views: 36.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:13:39 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 28.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:13:50 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+Completed 200 OK in 27ms (Views: 23.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:14:50 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 39.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:14:51 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 28.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:14:52 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 30.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:14:52 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.9ms)
+Completed 200 OK in 32ms (Views: 29.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:14:55 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 17.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:19:57 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+Completed 200 OK in 29ms (Views: 25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:20:05 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+Completed 200 OK in 22ms (Views: 18.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2017-10-13 11:20:11 +1000
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+Completed 200 OK in 25ms (Views: 23.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-10-13 11:20:13 +1000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 24.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-10-13 11:20:49 +1000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 23.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-10-13 11:22:23 +1000
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 23.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:22:26 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (0.6ms)
+Completed 200 OK in 29ms (Views: 19.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-13 11:22:54 +1000
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (0.7ms)
+Completed 200 OK in 29ms (Views: 26.2ms)
+
+
