@@ -1,6 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Post created by:</strong>
+  <%= @post.user.email %>
+</p>
+
+<p>
   <strong>Title:</strong>
   <%= @post.title %>
 </p>
